@@ -487,6 +487,39 @@ input
 	}
 }
 
+// //Message view quick reply, bottom toolbar section
+// .GQ .qz {
+// 	// @include invert-back();
+// 	background-color: invert-back($theme-background) !important;
+// }
+
+// Quick compose, bottom toolbar section
+.IZ {
+	@include invert-back();
+	background-color: $theme-background !important;
+}
+
+// Quick compose, compose button
+.J-J5-Ji .T-I-atl {
+	background-color: $theme-button-background !important;
+}
+
+.aX {
+	@include invert-back();
+	background-color: $theme-background !important;
+}
+
+// Quick compose view title bar
+.nH.Hy.aXJ * {
+	background-color: $theme-background-toolbar !important;
+}
+
+// Compose button
+.T-I.T-I-KE {
+	background: $theme-button-background !important;
+}
+
+
 //----------------------------------------------------------------------------------------------------------------------------------------------------
 // GOOGLE PLUS
 //----------------------------------------------------------------------------------------------------------------------------------------------------
